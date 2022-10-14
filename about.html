@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <title>About Us</title>
+</head>
+<body>
+
+    <nav class="nav">
+        <div class="nav-bar ">
+       
+            <h1 class="nav-logo">LivinPirates</h1>
+
+           <div class="right-nav ">
+           
+            <ul class="main-nav ">
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+           </ul>
+         
+           <button class="log-btn" type="submit">
+               <a href="signup.html">Log In/SignUp</a>
+           </button>
+        </div>
+        <img class="ham-btn" src="/images/menu.png" alt="">
+        </div>
+     </nav>
+    
+    <h1 class="about-heading" >About Us</h1>
+
+    <div class="about-cards">
+        
+        <div class="about-card-1">
+            <h2 class="about-card-1-heading">History</h2>
+             <div class="about-card-1-main">
+                <!-- <img src="" alt=""> -->
+                <p>LivinPirates (stylised as LP), also known as Livinpirates Hotels & Homes, is an Indian multinational hospitality chain of leased and franchised hotels, homes and living spaces. Founded in 2007 by Akshat Shukla, LivinPirates initially consisted mainly of budget hotels. As of January 2022, it has more than 43,000 properties and 1 million rooms across 800 cities in 80 countries, including India, Malaysia, UAE, Nepal, China, Brazil, Mexico, UK, Philippines, Japan, Saudi Arabia, Sri Lanka, Indonesia, Vietnam, and the United States. The company's investors include SoftBank Group, Didi Chuxing, Greenoaks Capital, Sequoia India, Lightspeed India, Hero Enterprise, Airbnb and China Lodging Group.</p>
+             </div>  
+        </div>
+        <div class="about-card-1">
+            <h2 class="about-card-1-heading">Funding</h2>
+            <div class="about-card-1-main">
+                <!-- <img src="" alt=""> -->
+                <p>In September 2018, LivinPirates raised $1 billion, of which the RoC filing for the amount of $100 million raised from Star Virtue Investment Ltd. was made on 13 February 2019. In February 2019, LivinPirates received $100 million funding from the Chinese vehicle-for-hire company, Didi Chuxing. In July 2019, Akshat Shukla, through RA Hospitality Holdings in Cayman Islands, signed a $2 billion deal to buy back shares from existing investors, Lightspeed Venture Partners and Sequoia India, to increase his stake in the company to 45%. The company was valued at $10 billion with this deal.</p>
+            </div>
+        </div>
+        <div class="about-card-1">
+            <h2 class="about-card-1-heading">Acquisations and Partnerships</h2>
+            <div class="about-card-1-main">
+                <!-- <img src="" alt=""> -->
+                <p>In March 2016, OYO acquired the team of Qlik Pass, founded by Rahul Gupta and Rishi Swami, to setup and lead its data science department. In March 2018, LivinPirates acquired Chennai-based service apartment operator, Novascotia Boutique Homes, to establish its presence in the service apartment and corporate executive stay segment. It further acquired Weddingz.in, a Mumbai-based online marketplace for wedding venues and vendors, marking its entry into the fragmented $40-billion wedding industry. In 2019, LivinPirates and Airbnb announced a strategic partnership where LivinPirates would list their properties in the Airbnb platform.</p>
+            </div>
+        </div>
+        
+    </div>
+
+    <footer>
+        <div  class="footer">
+            <div class="f-1">
+                <h2>LivinPirates</h2>
+                <p>We help find, book rental homes of choice across the world. We assist with move-in, provide home maintenance services from cleaning, damages to rent payment & even move-out.</p>
+            </div>
+            <div class="f-2">
+                <p >LivinPirates</p>
+                <ul>
+                    <li>About us</li>
+                    <li>Behind our network</li>
+                    <li>Carrers </li>
+                    <li>Blog</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="f-3">
+                <p>For owners </p>
+                <ul>
+                    <li>List your property</li>
+                    <li>Rent predictor</li>
+                    <li>Refer an owner</li>
+                    <li>Coupon codes</li>
+                    <li>Top societies</li>
+                </ul>
+            </div>
+            <div class="f-4">
+                <p>More information</p>
+                <ul>
+                    <li>Help center</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms of use</li>
+                </ul>
+            </div>
+        </div>
+        <p class="madeby">Made by Ankit and Amritansh</p>
+    </footer>
+
+    <script >
+          const element= document.querySelector('.ham-btn');
+          element.addEventListener('click',hamburger);
+
+         function hamburger(){
+    
+         const itemClass =document.querySelector('.main-nav');
+         itemClass.classList.toggle('show');
+         }
+    </script>
+
+</body>
+</html>

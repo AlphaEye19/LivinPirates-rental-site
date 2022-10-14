@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form{
+    width: 100%;
+    padding-left: 30%;
+    box-sizing: border-box;    
+}
+
+.form input{
+    width: 50%;
+    height: 2em;
+    margin-top: 0.7em ;
+    margin-bottom:0.7em;
+}
+
+.form button{
+    font-size: 1.2em;
+    margin-top: 0.6em;
+    width: 5em;
+    height: 2em;
+    border-radius: 2em;
+}
+
+.signup-heading{
+    padding-left: 35%;
+}
+
+button{
+    background-color: #fff382;
+    cursor: pointer;
+}
+
+@media(max-width:800px){
+
+    .signup-heading{
+        font-size: 1em;
+        padding-left: 27%;
+    }
+
+}

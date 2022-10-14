@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/pricing.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Pricing</title>
+</head>
+<body>
+
+    <nav class="nav">
+        <div class="nav-bar ">
+       
+            <h1 class="nav-logo">LivinPirates</h1>
+
+           <div class="right-nav ">
+           
+            <ul class="main-nav ">
+            <li><a href="index.html"> Home</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+           </ul>
+         
+           <button class="log-btn" type="submit">
+               <a href="signup.html">Log In/SignUp</a>
+           </button>
+        </div>
+        <img class="ham-btn" src="/images/menu.png" alt="">
+        </div>
+     </nav>
+
+     <h1 class="pricing-heading">OUR SERVICES AND PRICING</h1>
+
+    <div class="prop-cards">
+        <div class="prop-1 ">
+            <img src="images/pricing-1.png" alt="">
+            <h3>Appartments Starting from <br> $20000. <a href="index.html#SignUp_home">click here</a> </h3>
+        </div>
+        <div class="prop-1">
+            <img src="images/pricing-2.png" alt="">
+            <h3>Modern Houses Starting from <br> $10000. <a href="index.html#SignUp_home">click here</a> </h3>
+        </div>
+        <div class="prop-1">
+            <img src="images/pricing-3.png" alt="">
+            <h3>Best Quality Rooms Starting from <br> $2000. <a href="index.html#SignUp_home">click here</a> </h3>
+        </div>
+        <div class="prop-1">
+            <img src="images/pricing-4.png" alt="">
+            <h3>Sell your propery. <a href="index.html#SignUp_home">click here</a> </h3>
+        </div>
+        <div class="prop-1">
+            <img src="images/pricing-5.png" alt="">
+            <h3>Invest in our properties. <a href="index.html#SignUp_home">click here</a> </h3>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="f-1">
+                <h2>LivinPirates</h2>
+                <p>We help find, book rental homes of choice across the world. We assist with move-in, provide home maintenance services from cleaning, damages to rent payment & even move-out.</p>
+            </div>
+            <div class="f-2">
+                <p >LivinPirates</p>
+                <ul>
+                    <li>About us</li>
+                    <li>Behind our network</li>
+                    <li>Carrers </li>
+                    <li>Blog</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="f-3">
+                <p>For owners </p>
+                <ul>
+                    <li>List your property</li>
+                    <li>Rent predictor</li>
+                    <li>Refer an owner</li>
+                    <li>Coupon codes</li>
+                    <li>Top societies</li>
+                </ul>
+            </div>
+            <div class="f-4">
+                <p>More information</p>
+                <ul>
+                    <li>Help center</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms of use</li>
+                </ul>
+            </div>
+        </div>
+        <p class="madeby">Made by Ankit and Amritansh</p>
+    </footer>
+
+    <script>
+          const element= document.querySelector('.ham-btn');
+           element.addEventListener('click',hamburger);
+
+          function hamburger(){
+    
+           const itemClass =document.querySelector('.main-nav');
+           itemClass.classList.toggle('show');
+          }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Kanit&display=swap');
+
+
+body{
+    margin: 0;
+    padding:0;
+}
+
+a:hover{
+    color:dodgerblue
+}
+
+.pricing-heading{
+    font-family: 'Kanit', sans-serif;
+    background-color: #fff382;
+    padding: 1em;
+    margin: auto;
+    padding-left: 35%;
+}
+
+.prop-cards{
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.prop-1 img{
+    width: 50%;
+    margin: 1em;
+    padding-left: 20%;
+}
+
+.prop-1 h3{
+    font-family: 'Kanit', sans-serif;
+    background-color: #fff382 ;
+    padding: 1em;
+    border-radius: 2em;
+}
+
+.prop-1{
+    padding: 1.5em;
+}
+
+@media(max-width:800px){
+
+    .pricing-heading{
+        padding-left: 20%;
+    }
+
+    .prop-cards{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}

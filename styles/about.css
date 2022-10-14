@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Kanit&display=swap');
+
+.about-heading {
+    font-family: 'Kanit', sans-serif;
+    background-color: #fff382;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    margin-top: -0.1em;
+    padding-left: 45%;
+}
+
+.about-cards h2{
+    font-family: 'Kanit', sans-serif;
+}
+
+.about-cards p{
+    font-family: 'Rajdhani', sans-serif;
+    margin-top: -0.5em;
+}
+
+.about-cards{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.about-card-1{
+    margin-top: -3.5em;
+    padding: 1em;
+}
+
+@media(max-width:800px){
+
+    .about-heading {
+        padding-left: 10%;
+    }
+
+}
